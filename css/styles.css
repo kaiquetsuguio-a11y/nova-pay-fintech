@@ -1,0 +1,40 @@
+/* Customização de Cores de Fundo Estilo Premium Dark Mode */
+.bg-gray-850 {
+    background-color: #1f293d;
+}
+
+.bg-gray-800 {
+    background-color: #111827;
+}
+
+.border-gray-750 {
+    border-color: #1f2937;
+}
+
+.border-gray-800 {
+    border-color: #374151;
+}
+
+/* Transições suaves globais para hover de botões e links */
+a, button {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Ajuste fino na barra de rolagem (Scrollbar) para não quebrar a estética */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111827;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #374151;
+    border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #10b981;
+}

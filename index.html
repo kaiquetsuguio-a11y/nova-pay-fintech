@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Pay - Meu Perfil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans min-h-screen flex flex-col md:flex-row">
+
+    <aside class="w-full md:w-64 bg-gray-850 p-6 flex flex-col justify-between border-b md:border-b-0 md:border-r border-gray-800">
+        <div>
+            <div class="flex items-center gap-2 mb-8">
+                <div class="bg-emerald-500 p-2 rounded-lg text-gray-900 font-bold">NP</div>
+                <span class="text-xl font-bold tracking-wider text-emerald-400">Nova Pay</span>
+            </div>
+
+            <nav class="space-y-6">
+                <div>
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Principal</p>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="flex items-center gap-3 px-3 py-2 rounded-lg text-gray-400 hover:bg-gray-800 hover:text-emerald-400 transition-colors"><i data-lucide="layout-dashboard" class="w-5 h-5"></i> Dashboard</a></li>
+                        <li><a href="#" class="flex items-center gap-3 px-3 py-2 rounded-lg text-gray-400 hover:bg-gray-800 hover:text-emerald-400 transition-colors"><i data-lucide="arrow-left-right" class="w-5 h-5"></i> Transações</a></li>
+                        <li><a href="#" class="flex items-center gap-3 px-3 py-2 rounded-lg text-gray-400 hover:bg-gray-800 hover:text-emerald-400 transition-colors"><i data-lucide="file-text" class="w-5 h-5"></i> Extrato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Financeiro</p>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="flex items-center gap-3 px-3 py-2 rounded-lg text-gray-400 hover:bg-gray-800 hover:text-emerald-400 transition-colors"><i data-lucide="trending-up" class="w-5 h-5"></i> Investimentos</a></li>
+                        <li><a href="#" class="flex items-center gap-3 px-3 py-2 rounded-lg text-gray-400 hover:bg-gray-800 hover:text-emerald-400 transition-colors"><i data-lucide="credit-card" class="w-5 h-5"></i> Cartões</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Contas</p>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="flex items-center gap-3 px-3 py-2 rounded-lg bg-gray-800 text-emerald-400 font-medium"><i data-lucide="user" class="w-5 h-5"></i> Perfil</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </aside>
+
+    <main class="flex-1 p-4 md:p-8 max-w-6xl mx-auto w-full space-y-6">
+        
+        <header class="bg-gray-850 p-6 rounded-2xl border border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
+                <div class="w-20 h-20 bg-emerald-500 rounded-full flex items-center justify-center text-gray-900 font-bold text-3xl shadow-lg shadow-emerald-500/20">
+                    KN
+                </div>
+                <div>
+                    <h1 class="text-2xl font-bold tracking-tight">KAIQUE NAKAHARA</h1>
+                    <p class="text-gray-400 text-sm">kaiquetsuguio@gmail.com</p>
+                    <span class="inline-flex items-center gap-1 mt-2 px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                        <i data-lucide="badge-check" class="w-3.5 h-3.5"></i> Conta Verificada
+                    </span>
+                </div>
+            </div>
+            <div class="bg-gray-800 px-4 py-2 rounded-xl border border-gray-700 text-center sm:text-right">
+                <p class="text-xs text-gray-400 uppercase tracking-wider">Plano Atual</p>
+                <p class="text-emerald-400 font-bold text-lg">NovaPay Plus</p>
+                <p class="text-[10px] text-gray-500">Membro desde Março de 2022</p>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+            <section class="bg-gray-850 p-6 rounded-2xl border border-gray-800 space-y-4">
+                <div class="flex items-center gap-2 border-b border-gray-800 pb-3">
+                    <i data-lucide="id-card" class="text-emerald-400 w-5 h-5"></i>
+                    <h2 class="text-lg font-bold">Informações Pessoais</h2>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <p class="text-xs text-gray-500 uppercase">CPF</p>
+                        <p class="font-medium text-gray-300">***.***.432-10</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500 uppercase">Telefone</p>
+                        <p class="font-medium text-gray-300">(11) 99432-****</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-gray-850 p-6 rounded-2xl border border-gray-800 space-y-4">
+                <div class="flex items-center justify-between border-b border-gray-800 pb-3">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="map-pin" class="text-emerald-400 w-5 h-5"></i>
+                        <h2 class="text-lg font-bold">Endereço</h2>
+                    </div>
+                    <button class="text-xs text-emerald-400 hover:underline flex items-center gap-1">
+                        <i data-lucide="edit-2" class="w-3 h-3"></i> Editar
+                    </button>
+                </div>
+                <div class="grid grid-cols-2 gap-4 text-sm">
+                    <div class="col-span-2">
+                        <p class="text-xs text-gray-500 uppercase">Rua</p>
+                        <p class="font-medium text-gray-300">Av. Paulista, 1374</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500 uppercase">Complemento</p>
+                        <p class="font-medium text-gray-300">Apto 82</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500 uppercase">Bairro</p>
+                        <p class="font-medium text-gray-300">Bela Vista</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500 uppercase">CEP</p>
+                        <p class="font-medium text-gray-300">01310-100</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-gray-850 p-6 rounded-2xl border border-gray-800 space-y-4 lg:col-span-2">
+                <div class="flex items-center gap-2 border-b border-gray-800 pb-3">
+                    <i data-lucide="sliders" class="text-emerald-400 w-5 h-5"></i>
+                    <h2 class="text-lg font-bold">Limites de Transação Diária</h2>
+                </div>
+                <div class="space-y-4">
+                    <div>
+                        <div class="flex justify-between text-sm mb-1">
+                            <span class="text-gray-400">Transferência Diária</span>
+                            <span class="font-semibold text-emerald-400">R$ 8.200 <span class="text-gray-500">/ R$ 20.000</span></span>
+                        </div>
+                        <div class="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
+                            <div class="bg-emerald-500 h-2 rounded-full" style="width: 41%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between text-sm mb-1">
+                            <span class="text-gray-400">Pix Mensal</span>
+                            <span class="font-semibold text-emerald-400">R$ 23.400 <span class="text-gray-500">/ R$ 50.000</span></span>
+                        </div>
+                        <div class="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
+                            <div class="bg-emerald-500 h-2 rounded-full" style="width: 46.8%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between text-sm mb-1">
+                            <span class="text-gray-400">TED / DOC</span>
+                            <span class="font-semibold text-emerald-400">R$ 5.000 <span class="text-gray-500">/ R$ 15.000</span></span>
+                        </div>
+                        <div class="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
+                            <div class="bg-emerald-500 h-2 rounded-full" style="width: 33.3%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-gray-850 p-6 rounded-2xl border border-gray-800 space-y-4 lg:col-span-2">
+                <div class="flex items-center gap-2 border-b border-gray-800 pb-3">
+                    <i data-lucide="shield-check" class="text-emerald-400 w-5 h-5"></i>
+                    <h2 class="text-lg font-bold">Segurança e Configurações</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="p-4 bg-gray-800 rounded-xl border border-gray-750 flex items-start gap-3">
+                        <i data-lucide="smartphone" class="text-emerald-400 mt-1"></i>
+                        <div>
+                            <p class="font-semibold text-sm">Autenticação em 2 fatores</p>
+                            <p class="text-xs text-gray-400">Via app autenticador ativo</p>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-gray-800 rounded-xl border border-gray-750 flex items-start gap-3">
+                        <i data-lucide="fingerprint" class="text-emerald-400 mt-1"></i>
+                        <div>
+                            <p class="font-semibold text-sm">Biometria</p>
+                            <p class="text-xs text-gray-400">Desbloqueio por digital ativo</p>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-gray-800 rounded-xl border border-gray-750 flex items-start gap-3">
+                        <i data-lucide="bell" class="text-emerald-400 mt-1"></i>
+                        <div>
+                            <p class="font-semibold text-sm">Notificações de acesso</p>
+                            <p class="text-xs text-gray-400">Alertas por e-mail ativados</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html
